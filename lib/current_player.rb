@@ -1,8 +1,9 @@
 def turn_count(board)
-  count = 0
-  board.each do |play|
-    counter += 1 if != " "
+  counter = 0
+  board.each do |turns|
+    counter += 1 if turns != " "
   end
+  counter
 end
 
 def current_player(board)
